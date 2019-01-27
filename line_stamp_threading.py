@@ -14,7 +14,7 @@ Main_url = []
 class Procuder(threading.Thread):
 
     headers = {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
+        'user-agent': ''
     }
 
     def __init__(self, page_queue, img_queue, *args, **kwargs):
